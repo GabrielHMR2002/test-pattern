@@ -3,18 +3,15 @@
   "version": "1.0.0",
   "description": "Projeto base para o trabalho de teste pattern.",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.23.2",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
     "babel-jest": "^29.7.0",
     "jest": "^29.7.0"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.js$": "babel-jest"
-    }
   }
 }
